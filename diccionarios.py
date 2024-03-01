@@ -176,5 +176,5 @@ def ejercicios_4_diccionarios():
     print(f"diccionario ordenado por clave : {diccionario_orden_clave}")
     print(f"diccionario ordenado por valor : {diccionario_orden_valor}")
 
-ejercicios_4_diccionarios()
+
 

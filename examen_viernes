@@ -24,7 +24,7 @@ def fibonacci(dato):
         return True
     else:
         return False
-def punto_1():
+def punto_1_1():
     lista = [7,7,7,4,8,4,5,6,4,4,4,4]
     matriz = [
         [4,4,4,4],
@@ -88,7 +88,7 @@ def punto_1():
         segundo_prim += 1
 
     print(f"El segundo Fibonacci entre el rango dado por el primer y segundo primo en la matriz dada por el primo mayor y menor es: {segundo_fibo} y su posición en el vector es: {segundo_fibo_i}")
-
+punto_1_1()
 
 #SEGUNDO PUNTO
 
@@ -98,7 +98,13 @@ dic = {
     8 : [4,5,10],
     13 : [2,4,4,8]
 }
-def punto_2():
+def punto_2_1():
+    dic = {
+    3 : [4,9,19],
+    4 : [13,4,9],
+    8 : [4,5,10],
+    13 : [2,4,4,8]
+    }
     def primo_mayor_en_diccionario(diccionario):
         primo_mayor = None  # Inicializamos a None para capturar el primer número primo
         for lista in diccionario.values():  # Iteramos a través de todas las listas en el diccionario
@@ -138,7 +144,7 @@ def punto_2():
 
     print(lista_par)
 
-def punto_3():
+def punto_3_1():
     set_1 = set()
     set_2 = set()
 
@@ -159,4 +165,4 @@ def punto_3():
     print(f"cadena 1 : {cadena_1}")
     print(f"cadena 2 : {cadena_2}")
 
-punto_3()  
+ 
