@@ -8,7 +8,7 @@ from colorama  import init,Fore
 init()
 def leerMatriz():
     while True:
-        try:
+        try: 
             nf = int(input('Cantidad de filas matriz -> '))
             nc = int(input('Cantidad de columnas matriz -> '))
             matriz = [[random.randint(1, 10) for _ in range(nc)] for _ in range(nf)]
